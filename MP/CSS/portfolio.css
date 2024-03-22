@@ -1,0 +1,399 @@
+/* Style for whole document*/
+body{
+    padding: 20pt;
+    color: white;
+}
+
+header{
+    display: flex;
+    padding-left: 5pt;
+    padding-bottom: 7.5pt;
+    font-size: 24pt;
+}
+
+footer{
+    padding: 5pt;
+}
+
+button{
+    background-color: #e4e4e4;
+    margin: auto;
+}
+
+p{
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+form{
+    padding: 30pt;
+    font-size: 15pt;
+}
+
+.button{
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+.back{
+    font-size: 15pt;
+}
+
+.backH{
+    justify-content: flex-end;
+}
+
+#logo{
+    border: 0pt;
+    border-style: none;
+}
+
+/* Home Pages Style*/
+#Home{
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-light-marble-background-picture-image_1300595.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Home header{
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    background-color: #dcdcdc;
+    color: #494849;
+}
+
+nav{
+    display: flex;
+    padding-left: 6pt;
+    padding-right: 7.5pt;
+    padding-top: 8pt;
+    font-size: 24pt;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+nav ol li{
+    display: inline;
+    padding-left: 5pt;
+    padding-bottom: 5pt;
+    padding-top: 5pt;
+    list-style-type:none;
+}
+
+article{
+    background-color: #f4f4f4;
+    color: #494849;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+article p{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 30pt;
+}
+
+#Home footer{
+    background-color: #ececec;
+    color: #494849;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#Home footer ul li{
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+footer ul li{
+    list-style-type:none;
+    display: inline;
+    color: #170f0e;
+}
+
+/* About Pages Style*/
+#Abt{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/04/18/14/marble-2371776__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Boogaloo', cursive;
+    color: black;
+}
+
+#About{
+    grid-area: About;
+    display: block;
+    padding-left: 15pt;
+}
+
+.Abt{
+    display: flex;
+}
+
+#About h1{
+    font-size: 24pt;
+}
+
+#About h2{
+    font-size: 15pt;
+    font-style: italic;
+    padding-bottom: 8pt;
+}
+
+section{
+    display: grid;
+    padding: 7.5pt;
+    grid-template-areas: 
+    'me About About About'
+    'MathsClub MathsClub ScienceGroup ScienceGroup';
+    gap: 0.7em;
+}
+
+#me{
+    grid-area: me;
+}
+
+#MathsClub{
+    grid-area: MathsClub;
+}
+
+#ScienceGroup{
+    grid-area: ScienceGroup;
+}
+
+#title{
+    grid-area: title;
+}
+
+img{
+    border-color: #645954;
+    border: 2pt;
+    border-style: solid;
+}
+
+figcaption{
+    padding-top: 5pt;
+    font-style: oblique;
+    color: #645954;
+}
+
+.Experience{
+    margin: 2em;
+    display: grid;
+    grid-template-areas: 
+    'title . . .'
+    'MathsClub MathsClub ScienceGroup ScienceGroup';
+    gap: 0.7em;
+}
+
+.Experience h1{
+    font-size: 24pt;
+}
+
+.Experience p{
+    padding-top: 8pt;
+    font-size: 13pt;
+}
+
+/* Login Pages Style*/
+
+#login-in{
+    background-color: #d4d4d4;
+    color: black;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#lg{
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/luxury-white-marble-texture-background_24076-523.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Login{
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.Login ol li{
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    list-style-type:none;
+}
+
+/* AddPost Pages Style*/
+
+#post{
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(https://photo69.mac89.com/180531/JPG-180531_520/tY5AvIaYP6_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Add-post{
+    background-color: #c4e4ed;
+    color: #527c9d;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.newPost{
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.newPost ol li{
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    list-style-type:none;
+}
+
+aside{
+    color: #527c9d;
+    text-align: right;
+    padding-bottom: 5pt;
+    padding-right: 15pt;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+}
+
+/* Skills Pages Style*/
+#sks{
+    background-image: url(https://hbimg.b0.upaiyun.com/b792e609340a714767a37441ad0c06dd26c7f749232fd9-0yDiVg_fw658);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Caveat Brush', cursive;
+    color: #645954;
+}
+
+.skills h1{
+    font-size: 20pt;
+}
+
+.skills ul li{
+    list-style-type:none;
+    padding: 15pt;
+    font-size: 15pt;
+}
+
+.education h1{
+    font-size: 20pt;
+}
+
+div p{
+    font-size: 15pt;
+    padding: 15pt;
+}
+
+.education div{
+    display: flex;
+}
+
+.education{
+    padding-left: 30pt;
+    padding-bottom: 15pt;
+}
+
+.skills{
+    padding-left: 30pt;
+    padding-bottom: 15pt;
+}
+
+div ul li{
+    list-style-type:none;
+}
+
+.Achievements h1{
+    font-size: 20pt;
+}
+
+.Achievements div{
+    display: flex;
+}
+
+.Achievements{
+    padding-left: 30pt;
+    padding-bottom: 15pt;
+}
+
+/* Project Pages Style*/
+#Project{
+    background-image: url(https://thumb.photo-ac.com/4d/4dc24a53985228cf3ba3d039db20f2a8_t.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+}
+
+#Project header p{
+    color: #747c7c;
+}
+
+.proj{
+    display: grid;
+    grid-template-areas: 
+    'Project . . .'
+    'topic4 topic4 topic3 topic3'
+    'topic5 topic5 topic3 topic3';
+    gap: 0.7em;
+}
+
+.proj p{
+    text-align: center;
+    color: #a0c4e8;
+}
+
+.proj h1{
+    grid-area: Project;
+    font-size: 24pt;
+    color: #3d3f41;
+}
+
+.topic3{
+    grid-area: topic3;
+    background-color: #747c7c;
+}
+
+.topic4{
+    grid-area: topic4;
+    background-color: #747c7c;
+}
+
+.topic5{
+    grid-area: topic5;
+    background-color: #747c7c;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+/* Anchor style*/
+a:link{
+    color: #6e7263;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #869e93;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

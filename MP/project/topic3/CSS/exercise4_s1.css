@@ -1,0 +1,113 @@
+/* Style for whole document*/
+body{
+    background-color: #20344f;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50pt;
+    font-family: 'BioRhyme', serif;
+}
+
+/* Header Style*/
+h1{
+    background-color: #37607f;
+    color: white;
+    padding-left: 5pt;
+    padding-bottom: 7.5pt;
+    font-size: 24pt;
+}
+h2{
+    background-color: #37607f;
+    color: white;
+    padding-left: 5pt;
+    padding-bottom: 7.5pt;
+    font-size: 18pt;
+}
+hgroup ul{
+    background-color: #7791ad;
+    color: #ff9797;
+    padding-right: 7.5pt;
+    padding: 5pt;
+    font-size: 20pt;
+}
+
+ul li{
+    display: inline;
+    padding-left: 5pt;
+    padding-bottom: 5pt;
+    padding-top: 5pt;
+}
+
+/* Article Style*/
+h3{
+    font-size: 15.5pt;
+    border-bottom: solid;
+}
+
+a{
+    color: #ff9797;
+}
+
+article{
+    background-color: #d4a675;
+    color: #170f0e;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-bottom: 15pt;
+}
+footer{
+    background-color: #7791ad;
+    color: white;
+    padding: 5pt;
+}
+
+section{
+    padding: 7.5pt;
+}
+
+p{
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+section ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+img{
+    border-color: #645954;
+    border: 2pt;
+    border-style: solid;
+}
+
+figcaption{
+    padding-top: 5pt;
+    font-style: oblique;
+    color: #645954;
+}
+
+nav{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ol li{
+    list-style-type:none;
+    list-style-position: inside;
+}
+
+input[name="sectiond"]{
+    border-bottom: solid;
+}
+
+/* Anchor style*/
+a:link{
+    color: #6e7263;
+}
+
+a:visited{
+    color: #869e93;
+}
+
+a:hover{
+    background-color: #645954;
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Topic 4 - Exercise 4</title>
+        <meta charset='utf-8'>
+        <style>
+            @import url("CSS/reset.css");
+            @import "CSS/exercise4.css";
+        </style>
+    </head>
+    <body>
+        <form method="GET" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+            <fieldset>
+                <legend>Shirt Order Form</legend>
+                <div>
+                    <label>Shirt size</label><br>
+                    <select name="shirt_size">
+                        <option>Choose size</option>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <br>
+                    <label>Sleeves</label><br>
+                    <input type="radio" name="sleeves" value="short" checked>Short<br>
+                    <input type="radio" name="sleeves" value="long">Long
+                    <br>
+                    <label>Choose Shirt Colour</label><br>
+                    <input type="color" name="color">
+                    <br>
+                    <label>Quantity</label><br>
+                    <input type="number" min="1" max="10" name="quantity">
+                    <br>
+                    <label>Date Requested</label><br>
+                    <input type="date" name="date">
+                
+                </div>
+                <div>
+                    <label>Name</label><br>
+                    <input type="text" name="name">
+                    <br>
+                    <label>Email Address</label><br>
+                    <input type="email" name="email">
+                    <br>
+                    <label>Telephone Number</label><br>
+                    <input type="text" pattern="[0-9]{2}[ -][0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" name="telephone">
+                    <label>Example: 44-207-882-1234</label>
+                </div>
+                <div>
+                    <label>Address</label><br>
+                    <input type="text" name="address">
+                    <br>
+                    <label>City</label><br>
+                    <input type="text" name="city" list="cities">
+                    <datalist id="cities">
+                        <option>Birmingham</option>
+                        <option>Brighton</option>
+                        <option>London</option>
+                        <option>Newcastle</option>
+                    </datalist>
+                    <br>
+                    <label>Postcode</label><br>
+                    <input type="text" name="postcode">
+                </div>
+                <div id="last_box">
+                    <label>Please keep me informed about future shirt offerings</label>
+                    <input type="checkbox" name="accept">
+                    <br><br>
+                    <div id="button">
+                        <input type="submit" value="Submit" class="button">
+                        <input type="reset" value="Clear Form" class="button">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

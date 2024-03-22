@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px){
+    /* Home Pages Style*/
+
+    header{
+        flex-direction: column;
+    }
+
+    #Home footer ul li{
+        padding-left: 25pt;
+        padding-right: 25pt;
+    }
+
+    /* About Pages Style*/
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Experience{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Project Pages Style*/
+
+    .proj{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proj img{
+        width: 330px;
+        height: 450px;
+    }
+
+    .topic5 img{
+        width: 430px;
+        height: 270px;
+    }
+
+    /* AddPost Pages Style*/
+    
+    #Add-post{
+        background-color: #c4e4ed;
+        color: #527c9d;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
